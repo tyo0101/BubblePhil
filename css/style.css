@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Dove';
+    src: url('/fonts/Dove.otf') format('opentype');
+}
+p{
+    font-family: 'Dove';
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: right;
+    /* 在横向上居中对齐 */
+    text-align: center;
+    /* 文本居中对齐 */
+    align-items: center;
+
+}
+
+.navbar-nav img {
+    max-height: 100%;
+    /* 高度最大化 */
+    width: auto;
+    /* 宽度自适应 */
+    margin: 0 auto;
+    /* 水平居中对齐 */
+}
+
+.navbar-nav a {
+    color: #ef7c45;
+}
+.bannertitle p, .bannertitle h2{
+    color: #ffffff;
+}
+.title h2 {
+    text-align: center;
+    padding: 5%;
+    font-family: 'HuaKangLiHei', sans-serif;
+}
+
+.text img {
+    border-radius: 10%;
+    border: 1px solid #ef7c45;
+}
+
+.navbar-nav {
+    color: #461e11;
+}
+.icon img{
+    width: 50%; height: auto;
+    background-color: #ffffff;
+    border-radius:360px;
+    border: 1px solid #ef7c45;
+}
+
+h2{
+    font-size: 2vw;
+}
+.element-to-position {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+}
+.quality-title {
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+    height:200px;
+}
+.quality-overlay-text{
+    position:relative;
+    width:500px;
+    left:40%;
+    top:-90%;
+    z-index: 2;
+}
+.quality-overlay-text p{
+    font-size:13px;
+    letter-spacing: 3px;
+    }
+.quality-overlay-text h3{
+font-size:23px;
+}
+.quality-overlay-text h4{
+    font-size:17px;
+    }
+.quality-title img{
+    position: absolute;
+    width: 200px;
+    bottom: -35%;
+    left: -5%;
+    z-index: 1;
+}
+.certification-item{
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+}
+.certification-item p{
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+    text-align: center;
+}
+.certification{
+    width:100%;
+}
+.certification-item{
+    justify-content: left;
+}
+@media (min-width: 1200px) {
+    .quality-title img{
+        width: 400px;
+        bottom: -45%;
+        left:-10%;
+    } 
+    .quality-title{
+        height: 450px;
+    } 
+    .quality-overlay-text{
+        width:500px;
+        left:30%;
+        top:0%;
+    }
+    .quality-overlay-text p{
+        font-size:1.6vw;
+        letter-spacing: 3px;
+        }
+    .quality-overlay-text h3{
+    font-size:2.3vw;
+    }
+    .quality-overlay-text h4{
+        font-size:1.8vw;
+        }
+}
+@media (min-width:768px) and (max-width: 1200px) {
+    .quality-title img{
+        width: 400px;
+        bottom: -65%;
+    } 
+    .quality-title{
+        height: 300px;
+    } 
+    .quality-overlay-text{
+        width:500px;
+        left:50%;
+        top:-10%;
+    }.quality-overlay-text p{
+        font-size:2.3vw;
+        letter-spacing: 3px;
+        }
+    .quality-overlay-text h3{
+    font-size:3.5vw;
+    }
+    .quality-overlay-text h4{
+        font-size:2.5vw;
+        }
+}
+.navicon {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 20vh;
+    width:100%;
+}
+.articletitle {
+    font-size: calc(var(--width) * 0.02);
+    font-family: 'Dove', sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    height: 100%;
+    margin: 0;
+}
+.item-newstitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+}
+
+.newsone img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.newsone{
+   overflow: hidden;
+   padding:0;
+   height:400px;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+   text-align: center;
+   
+}
+.newsbuttun{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 15%;
+    background-color: #ef7c45;
+    border-radius:360px 0 0 360px;
+}
+.bg{
+    padding:30px;
+
+}
+.informationbutton button {
+    background-color: #ffffff;
+    color: #461e11;
+    border: none;
+    padding:5vh;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width:100%;
+}
+.arrow{ 
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    background: #ffffff;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #ef7c45;
+    transition: all 0.2s ease-in-out;
+}
+.informationbutton{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.informationbutton p{
+    display: inline;
+    font-size:20px;
+    color: #ef7c45;
+    padding:3px;
+}
+.information{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.information p{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-size:1.2em;
+}

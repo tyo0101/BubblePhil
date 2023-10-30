@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Dove';
+            src: url('D:\fonts') format('woff2'),
+        }
+
+        .navbar-collapse {
+            display: flex;
+            justify-content: right;
+            /* 在横向上居中对齐 */
+            text-align: center;
+            /* 文本居中对齐 */
+            align-items: center;
+
+        }
+
+        .navbar-nav img {
+            max-height: 100%;
+            /* 高度最大化 */
+            width: auto;
+            /* 宽度自适应 */
+            margin: 0 auto;
+            /* 水平居中对齐 */
+        }
+
+        .navbar-nav a {
+            color: #ef7c45;
+        }
+.bannertitle p, .bannertitle h2{
+    color: #ffffff;
+}
+        .title h2 {
+            text-align: center;
+            padding: 5%;
+            font-family: 'HuaKangLiHei', sans-serif;
+        }
+
+        .text img {
+            border-radius: 10%;
+            border: 1px solid #ef7c45;
+        }
+
+        .navbar-nav {
+            color: #461e11;
+        }
+.icon img{
+    width: 50%; height: auto;
+}
+        .informationbutton button {
+            background-color: #ffffff;
+            color: #461e11;
+            border: none;
+            padding: 3vh;
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 5em;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="1-logo.png" href="#" width="100vh">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" style="color: #461e11;" href="#">關於我們</a>
+                    <a class="nav-link" style="color: #461e11;" href="#">客製化服務</a>
+                    <a class="nav-link" style="color: #461e11;" href="#">產品項目</a>
+                    <a class="nav-link" style="color: #461e11;" href="#">最新消息</a>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="banner p-0">
+                <img src="banner1.jpg" style="width: 100%;">
+            </div>
+            <div class="col-6 col-md-6 overlay-text bannertitle" style="position: absolute; top:30%;padding:60px 50px;">
+                <h2>專業製造工廠-保障食品安全</h2>
+                <br>
+                <p>每個生產階段嚴格控制和檢測，</p>
+                <p>確保卓越品質和衛生安全。</p>
+                <div class="icon d-flex justify-content-center">
+                    <div class="col-md-2 col-lg-4">
+                        <img src="1-boba.png">
+                    </div>
+                    <div class="col-md-2 col-lg-4">
+                        <img src="1-bubble-tea.png">
+                    </div>
+                    <div class="col-md-2 col-lg-4">
+                        <img src="1-bubble-tea.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 title">
+                <h2>產品項目</h2>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-3  text">
+                <a href="#">
+                    <img src="Tapioca Pearls.jpg" style="width: 100%; max-height: 300px;" alt="Tapioca Pearls">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-3  text">
+                <a href="#">
+                    <img src="Flavored Syrups.jpg" style="width: 100%; max-height: 300px;" alt="Flavored Syrups">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-3 text">
+                <a href="#">
+                    <img src="canned beverages.jpg" style="width: 100%; max-height: 300px;" alt="Canned Beverages">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-3  text">
+                <a href="#">
+                    <img src="Popping Boba.jpg" style="width: 100%; max-height: 300px;" alt="Popping Boba">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-3  text">
+                <a href="#">
+                    <img src="Beverage Powders.jpg" style="width: 100%; max-height: 300px;" alt="Beverage Powders">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-3  text">
+                <a href="#">
+                    <img src="Tea Leaves.jpg" style="width: 100%; max-height: 300px;" alt="Tea Leaves">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-3  text">
+                <a href="#">
+                    <img src="Ingredients.jpg" style="width: 100%; max-height: 300px;" alt="Ingredients">
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-xl-3 mb-3  text">
+                <a href="#">
+                    <img src="Equipment.jpg" style="width: 100%; max-height: 300px;" alt="Equipment">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="selection">
+        <div class="container-fluid"
+            style="background-image: url('背景.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+            <div class="row" style="margin-top:10%;">
+    
+                <div class="col-xl-4 col-md-12 col-sm-12 title">
+                    <div style="position: relative;">
+                        <img src="112.jpg" style="max-width: 100%; height:auto;">
+                        <div class="overlay-text" style="position: absolute; top: 10%; left: 50%;">
+                            <p style="color:rgba(55, 65, 80, 0.445);font-size:1.2em;">QUALITY MANAGEMENT<br>
+                                AND CERTIFICATES</p>
+                            <p style="color:#ef7c45;font-size:1.2em;">擁有多項國際認證</p>
+                            <p style="color:rgba(55, 65, 80, 0.445);font-size:1.2em;">讓客戶無憂無慮地選擇<br>享受我們的產品。</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-xl-8 col-md-12 col-sm-12"
+                    style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;margin-top:3%;margin-bottom:3%;">
+                    <div>
+                        <img src="certification.png" style="max-width: 100%; height: auto;">
+                        <p style="color: #ef7c45; font-size: 1.5em;">Kosher、Halal、FSSC 22000、HACCP、ISO22000</p>
+                    </div>
+                </div>
+    
+    
+                <div class="container" style="margin-top:5%;margin-bottom:5%;">
+                    <div class="row">
+                        <div class="col-12 col-md-4 item-newstitle d-flex align-items-center">
+                            <div class="newstitle d-flex align-items-center">
+                                <img src="3-背景球.png" class="img-fluid">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p class="ml-2 mb-0">最新消息</p>
+                                <p style="font-family: 'Dove', sans-serif;">LATEST<br>NEWS</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-4 news d-flex align-items-center">
+                            <div style="margin:5%;">
+                                <img src="3-食品展.jpg" style="width:100%;">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-4 news d-flex align-items-center">
+                            <div style="margin:5%;object-fit: cover;">
+                                <img src="3-食品展.jpg" style="width:100% ;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 joinitem ">
+                    <div class="join"
+                        style="display: flex;flex-direction: column;justify-content: center;align-items: center; height: 20vh;">
+                        <p style="font-size: 2em; color: rgba(55, 65, 80, 0.445);">JOIN US AS OUR PARTNER!</p>
+                        <p style="font-size: 2em; color: #ef7c45;">加入我們成為我們的合作夥伴</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container-fluid p-0">
+            <img src="4-地圖.jpg" class="img-fluid" alt="..." style="width: 100%;max-height: 100vh;">
+        </div>
+    
+        <div class="container-fluid" style="background-color: #ef7c45;">
+            <div class="row">
+                <div class="col-6 information" style="padding:2.5%;">
+                    <p style="color:aliceblue;font-size:1.2em;">
+                        Bubblephil積極跨足海外，將珍珠奶茶迎向全球。<br>目前已在北美洲、東南亞、亞洲已有合作夥伴，<br>正在往歐洲擴展。Bubblephil珍惜每一位合作客戶，<br>秉持以客為尊、服務至上的專業與使命。
+                    </p>
+                </div>
+                <div class="col-6 informationbutton"
+                    style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                    <button>讓世界看到珍珠奶茶</button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</body>
+
+</html>
